@@ -1,66 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="232203d8-7a41-447d-9ffc-12b3e42b8933" name="Default" comment="forward after reg">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/target/classes/by/mnk/htp/glotovs/msr/dao/impl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/dao/target/classes/by/mnk/htp/glotovs/msr/dao/impl/UserDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/target/classes/by/mnk/htp/glotovs/msr/entities/UserEntity.class" afterPath="$PROJECT_DIR$/dao/target/classes/by/mnk/htp/glotovs/msr/entities/UserEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/target/dao-1.0.jar" afterPath="$PROJECT_DIR$/dao/target/dao-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/classes/by/mnk/htp/glotovs/msr/services/impl/UserService.class" afterPath="$PROJECT_DIR$/service/target/classes/by/mnk/htp/glotovs/msr/services/impl/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/service-1.0.jar" afterPath="$PROJECT_DIR$/service/target/service-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/EmptyCommand.class" afterPath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/EmptyCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/GetUserInfoCommand.class" afterPath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/GetUserInfoCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/LoginCommand.class" afterPath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/LoginCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/LogoutCommand.class" afterPath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/LogoutCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/PassRegistrationCommand.class" afterPath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/PassRegistrationCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/client/CommandEnum.class" afterPath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/client/CommandEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/factory/ActionFactory.class" afterPath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/factory/ActionFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/controller/Controller.class" afterPath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/controller/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/resource/ConfigurationManager.class" afterPath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/resource/ConfigurationManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/resource/MessageManager.class" afterPath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/resource/MessageManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web.war" afterPath="$PROJECT_DIR$/web/target/web.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/EmptyCommand.class" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/EmptyCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/GetUserInfoCommand.class" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/GetUserInfoCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/LoginCommand.class" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/LoginCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/LogoutCommand.class" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/LogoutCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/PassRegistrationCommand.class" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/PassRegistrationCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/client/CommandEnum.class" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/client/CommandEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/factory/ActionFactory.class" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/factory/ActionFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/controller/Controller.class" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/controller/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/resource/ConfigurationManager.class" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/resource/ConfigurationManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/resource/MessageManager.class" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/resource/MessageManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/dao-1.0.jar" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/dao-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/service-1.0.jar" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/service-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
+    <list default="true" id="232203d8-7a41-447d-9ffc-12b3e42b8933" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/client/CommandEnum$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/client/CommandEnum$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/client/CommandEnum$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/client/CommandEnum$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/client/CommandEnum$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/client/CommandEnum$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/client/CommandEnum$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/client/CommandEnum$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/client/CommandEnum$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/client/CommandEnum$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/javax.servlet-api-3.0.1.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/RegistrationFormCommand.class" afterPath="$PROJECT_DIR$/web/target/classes/by/mnk/htp/glotovs/msr/command/RegistrationFormCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/RegistrationFormCommand.class" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/by/mnk/htp/glotovs/msr/command/RegistrationFormCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/by/mnk/htp/glotovs/msr/dao/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/dao/src/main/java/by/mnk/htp/glotovs/msr/dao/impl/UserDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/by/mnk/htp/glotovs/msr/entities/UserEntity.java" afterPath="$PROJECT_DIR$/dao/src/main/java/by/mnk/htp/glotovs/msr/entities/UserEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/target/surefire-reports/TEST-by.mnk.htp.glotovs.msr.AppTest.xml" afterPath="$PROJECT_DIR$/dao/target/surefire-reports/TEST-by.mnk.htp.glotovs.msr.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/target/surefire-reports/by.mnk.htp.glotovs.msr.AppTest.txt" afterPath="$PROJECT_DIR$/dao/target/surefire-reports/by.mnk.htp.glotovs.msr.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/by/mnk/htp/glotovs/msr/services/impl/UserService.java" afterPath="$PROJECT_DIR$/service/src/main/java/by/mnk/htp/glotovs/msr/services/impl/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/surefire-reports/TEST-by.mnk.htp.glotovs.msr.AppTest.xml" afterPath="$PROJECT_DIR$/service/target/surefire-reports/TEST-by.mnk.htp.glotovs.msr.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/surefire-reports/by.mnk.htp.glotovs.msr.AppTest.txt" afterPath="$PROJECT_DIR$/service/target/surefire-reports/by.mnk.htp.glotovs.msr.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/EmptyCommand.java" afterPath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/EmptyCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/GetUserInfoCommand.java" afterPath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/GetUserInfoCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/LoginCommand.java" afterPath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/LoginCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/LogoutCommand.java" afterPath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/LogoutCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/PassRegistrationCommand.java" afterPath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/PassRegistrationCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/RegistrationFormCommand.java" afterPath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/RegistrationFormCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/client/CommandEnum.java" afterPath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/client/CommandEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/factory/ActionFactory.java" afterPath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/command/factory/ActionFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/controller/Controller.java" afterPath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/controller/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/resource/ConfigurationManager.java" afterPath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/resource/ConfigurationManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/resource/MessageManager.java" afterPath="$PROJECT_DIR$/web/src/main/java/by/mnk/htp/glotovs/msr/resource/MessageManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/jsp/AfterRegistration.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/jsp/AfterRegistration.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/jsp/error/error.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/jsp/error/error.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/jsp/registrationForm.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/jsp/registrationForm.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/jsp/userInfo.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/jsp/userInfo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/web/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/jsp/AfterRegistration.jsp" afterPath="$PROJECT_DIR$/web/target/web/jsp/AfterRegistration.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/jsp/error/error.jsp" afterPath="$PROJECT_DIR$/web/target/web/jsp/error/error.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/jsp/registrationForm.jsp" afterPath="$PROJECT_DIR$/web/target/web/jsp/registrationForm.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web/jsp/userInfo.jsp" afterPath="$PROJECT_DIR$/web/target/web/jsp/userInfo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
     </list>
     <ignored path="Messanger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,16 +41,6 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - messengerdb@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -392,6 +337,106 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Messanger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Messanger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Messanger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Messanger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Messanger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Messanger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Messanger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Messanger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Messanger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1029,12 +1074,20 @@
       <workItem from="1477305977295" duration="35853000" />
       <workItem from="1477426973230" duration="3968000" />
       <workItem from="1477430999938" duration="6341000" />
-      <workItem from="1477470874444" duration="26712000" />
+      <workItem from="1477470874444" duration="27226000" />
     </task>
+    <task id="LOCAL-00001" summary="forward after reg">
+      <created>1477502751649</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1477502751649</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72874000" />
+    <option name="totallyTimeSpent" value="73388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
