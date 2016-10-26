@@ -17,7 +17,6 @@ import java.util.List;
 
 public class UserService implements IUserService{
 
-    //private UserDaoImpl userDao;
     public List getAll() throws ServiceException {
         return null;
     }

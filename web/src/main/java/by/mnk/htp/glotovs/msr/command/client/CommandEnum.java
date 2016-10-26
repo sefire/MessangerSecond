@@ -3,38 +3,21 @@ package by.mnk.htp.glotovs.msr.command.client;
 import by.mnk.htp.glotovs.msr.command.*;
 
 /**
- * Created by Sefire on 25.10.2016.
+ * Created by Sefire on 24.10.2016.
  */
 public enum CommandEnum {
-    LOGIN {
-        {
-            this.command = new LoginCommand();
-        }
-    },
-    LOGOUT {
-        {
-            this.command = new LogoutCommand();
-        }
-    },
-
-    REGISTRATIONFORM{
-        {
-            this.command = new RegistrationFormCommand();
-        }
-    },
-
-    PASSREGISTRATION {
-        {
-            this.command = new PassRegistrationCommand();
-        }
-    },
-    GETUSERINFO {
-        {
-            this.command = new GetUserInfoCommand();
-        }
-    };
+    LOGIN(new LoginCommand()),
+    LOGOUT(new LogoutCommand()),
+    REGISTRATIONFORM(new RegistrationFormCommand()),
+    PASSREGISTRATION(new PassRegistrationCommand()),
+    AFTERREGISTRATION(new AfterRegistrationCommand()),
+    GETUSERINFO(new GetUserInfoCommand());
 
     ActionCommand command;
+
+    CommandEnum(ActionCommand command) {
+        this.command = command;
+    }
 
     public ActionCommand getCurrentCommand() {
         return command;

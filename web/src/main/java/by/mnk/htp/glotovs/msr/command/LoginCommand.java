@@ -16,15 +16,12 @@ public class LoginCommand implements ActionCommand {
 
     public String execute(HttpServletRequest request) {
         String page = null;
-        // извлечение из запроса логина(номера телефона) и пароля
         String phone = request.getParameter(PARAM_PHONE_NUMBER);
         String pass = request.getParameter(PARAM_PASSWORD);
-        // проверка логина и пароля
-        if (LoginCommandLogic.checkLogin(phone, pass)) {
+       if (LoginCommandLogic.checkLogin(phone, pass)) {
             request.setAttribute("user", LoginCommandLogic.getFullName(phone));
             HttpSession session = request.getSession();
             session.setAttribute("phoneNumberSession",phone);
-// определение пути к main.jsp
             page = ConfigurationManager.getProperty("path.page.main");
         } else {
             request.setAttribute("errorLoginPassMessage", MessageManager.getProperty("message.loginerror"));

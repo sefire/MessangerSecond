@@ -1,9 +1,6 @@
 package by.mnk.htp.glotovs.msr.command;
 
-import by.mnk.htp.glotovs.msr.command.ActionCommand;
 import by.mnk.htp.glotovs.msr.resource.ConfigurationManager;
-import org.apache.log4j.Logger;
-
 import javax.servlet.http.HttpServletRequest;
 
 /**

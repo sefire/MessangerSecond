@@ -31,8 +31,7 @@ public class UserEntity implements IEntity<Integer> {
     }
 
 
-    @Override
-    public Integer getId() {
+        public Integer getId() {
         return this.idUser;
     }
 

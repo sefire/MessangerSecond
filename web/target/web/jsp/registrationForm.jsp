@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Dmitry
-  Date: 10/26/2016
-  Time: 00:47
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head><title>Registration</title></head>
@@ -12,7 +5,7 @@
 <form name="signupForm" method="POST" action="controller">
     <input type="hidden" name="command" value="passregistration" />
     Phone: <br/>
-    <input type="text" name="phone" value=""/>
+    <input type="text" name="phoneNumber" value=""/>
     <br/>
     FirstName: <br/>
     <input type="text" name="firstname" value=""/>

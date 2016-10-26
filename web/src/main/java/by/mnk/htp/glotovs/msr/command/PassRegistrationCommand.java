@@ -11,18 +11,18 @@ import by.mnk.htp.glotovs.msr.services.factory.ServiceName;
 import by.mnk.htp.glotovs.msr.services.impl.UserService;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 /**
  * Created by Sefire on 26.10.2016.
  */
 public class PassRegistrationCommand implements ActionCommand  {
 
-    @Override
     public String execute(HttpServletRequest request) {
         String page = null;
 
         UserEntity userEntity = new UserEntity();
-        userEntity.setPhone((String)request.getParameter("phone"));
+        userEntity.setPhone((String)request.getParameter("phoneNumber"));
         userEntity.setFirstName((String)request.getParameter("firstname"));
         userEntity.setLastName((String)request.getParameter("laststname"));
         userEntity.setCountry((String)request.getParameter("country"));
@@ -33,6 +33,8 @@ public class PassRegistrationCommand implements ActionCommand  {
         UserService userService = (UserService) ServiceFactory.getInstance().getService(ServiceName.USER);
         try {
             userService.create(userEntity);
+            HttpSession session = request.getSession();
+            session.setAttribute("phoneNumberSession",(String)request.getParameter("phoneNumber"));
             page = ConfigurationManager.getProperty("path.page.afterRegistration");
         } catch (ServiceException e) {
             e.printStackTrace();

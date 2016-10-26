@@ -17,7 +17,6 @@ import java.util.Enumeration;
  * Created by Sefire on 26.10.2016.
  */
 public class GetUserInfoCommand implements ActionCommand {
-    @Override
     public String execute(HttpServletRequest request) {
         String page = null;
         HttpSession session = request.getSession();

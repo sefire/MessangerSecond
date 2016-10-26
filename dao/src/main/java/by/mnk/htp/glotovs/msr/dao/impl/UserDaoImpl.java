@@ -22,7 +22,6 @@ public class UserDaoImpl implements IUserDao {
         return null;
     }
 
-    @Override
     public void create(UserEntity userEntity) throws DaoException {
 
         Connection connection = null;
@@ -60,7 +59,6 @@ public class UserDaoImpl implements IUserDao {
         }
     }
 
-    @Override
     public UserEntity read(Integer id) throws DaoException {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
@@ -168,18 +166,13 @@ public class UserDaoImpl implements IUserDao {
         return userEntity;
     }
 
-    @Override
     public void update(UserEntity entity) throws DaoException {
 
     }
 
-    @Override
     public void delete(UserEntity entity) throws DaoException {
 
     }
-
-
-
 
     public UserEntity getUserEntityById(int idUser) {
         return null;
